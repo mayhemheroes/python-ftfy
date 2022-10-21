@@ -1,0 +1,6 @@
+project: python-ftfy
+target: ftfy_fuzz
+
+cmds:
+    - cmd: /python-ftfy/fuzz/ftfy_fuzz.py
+      libfuzzer: true
